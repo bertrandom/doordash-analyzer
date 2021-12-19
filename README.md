@@ -1,6 +1,8 @@
 # doordash-analyzer
 
-Tells you how much money you've spent with Doordash during the pandemic
+Tells you how much money you've spent with Doordash during the pandemic.
+
+Leverages [chrome-cookies-secure](https://www.npmjs.com/package/chrome-cookies-secure).
 
 [![asciicast](https://asciinema.org/a/KUJGvj6Hp0PxFSRTNxbpKMfTz.svg)](https://asciinema.org/a/KUJGvj6Hp0PxFSRTNxbpKMfTz)
 
