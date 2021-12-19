@@ -39,7 +39,7 @@ const stream = createStream(tableConfig);
     var jar = await chrome.getCookiesPromised('https://www.doordash.com/', 'jar');
 
     if (!cookies.ddweb_token) {
-        console.log(chalk.red('Error: No Doordash credentials found. Please login to doordash.com in Chrome, wait 30 seconds, and try again.'));
+        console.log(chalk.red('Error: No Doordash credentials found. Please login to https://www.doordash.com in Chrome, wait 30 seconds, and try again.'));
         return;
     }
 
