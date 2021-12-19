@@ -2,6 +2,8 @@
 
 Tells you how much money you've spent with Doordash during the pandemic
 
+[![asciicast](https://asciinema.org/a/KUJGvj6Hp0PxFSRTNxbpKMfTz.svg)](https://asciinema.org/a/KUJGvj6Hp0PxFSRTNxbpKMfTz)
+
 ## Installation
 
 Clone the repo and install the dependencies:
