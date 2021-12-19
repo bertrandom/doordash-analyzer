@@ -36,7 +36,6 @@ const stream = createStream(tableConfig);
 (async function () {
 
     var cookies = await chrome.getCookiesPromised('https://www.doordash.com/', 'object');
-    var jar = await chrome.getCookiesPromised('https://www.doordash.com/', 'jar');
 
     if (!cookies.ddweb_token) {
         console.log(chalk.red('Error: No Doordash credentials found. Please login to https://www.doordash.com in Chrome, wait 30 seconds, and try again.'));
@@ -46,6 +45,8 @@ const stream = createStream(tableConfig);
     var decoded = jwtDecode(cookies.ddweb_token);
 
     console.log('You are logged in to Doordash as ' + chalk.green(decoded.user.email));
+
+    var jar = await chrome.getCookiesPromised('https://www.doordash.com/', 'jar');
 
     // Fetch the orders page because Doordash would probably expect us to before retrieving orders
     var ordersPageBody = await rp({
