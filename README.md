@@ -20,6 +20,8 @@ npm install
 
 Open Google Chrome and go to [Doordash](https://www.doordash.com). Click "Sign In" in the top-right and sign-in to your account.
 
+Wait 30 seconds for Chrome to flush its cookies to the SQLite file.
+
 Run:
 ```
 node app
