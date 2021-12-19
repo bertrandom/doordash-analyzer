@@ -14,7 +14,7 @@ npm install
 
 ## Usage
 
-Open Google Chrome and go to [https://www.doordash.com](Doordash). Click "Sign In" in the top-right and sign-in to your account.
+Open Google Chrome and go to [Doordash](https://www.doordash.com). Click "Sign In" in the top-right and sign-in to your account.
 
 Run:
 ```
